@@ -8,7 +8,7 @@ title: Printed Circuit Boards
         <h2>List of tested PCBs</h2>
         <ul>
         {% for pcb in site.pcbs %}
-            <li><a href="{{ pcb.url | prepend: site.baseurl }}">{{ pcb.name }}</a></li>
+            <li><a href="{{ pcb.url | absolute_url }}">{{ pcb.name }}</a></li>
         {% endfor %}
         </ul>
 
@@ -20,7 +20,7 @@ title: Printed Circuit Boards
             <ul>
                 {% for pcb in site.pcbs %}
                     {% if pcb.tags contains tag %}
-                        <li><a href="{{ pcb.url | prepend: site.baseurl }}">{{ pcb.name }}</a></li>
+                        <li><a href="{{ pcb.url | absolute_url }}">{{ pcb.name }}</a></li>
                     {% endif %}
                 {% endfor %}
           </ul>

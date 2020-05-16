@@ -8,7 +8,7 @@ title: CAD Models
         <h2>List of tested CAD Models</h2>
         <ul>
         {% for model in site.cad_models %}
-            <li><a href="{{ model.url | prepend: site.baseurl }}">{{ model.name }}</a></li>
+            <li><a href="{{ model.url | absolute_url }}">{{ model.name }}</a></li>
         {% endfor %}
         </ul>
 
@@ -20,7 +20,7 @@ title: CAD Models
             <ul>
                 {% for model in site.cad_models %}
                     {% if model.tags contains tag %}
-                        <li><a href="{{ model.url | prepend: site.baseurl }}">{{ model.name }}</a></li>
+                        <li><a href="{{ model.url | absolute_url }}">{{ model.name }}</a></li>
                     {% endif %}
                 {% endfor %}
           </ul>
