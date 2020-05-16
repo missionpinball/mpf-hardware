@@ -1,0 +1,74 @@
+    /* Remove the navbar's default rounded borders and increase the bottom margin */
+    .navbar {
+      margin-bottom: 50px;
+      border-radius: 0;
+    }
+
+    .navbar-brand {
+        margin-top: -10px;
+    }
+
+    /* Remove the jumbotron's default bottom margin */
+     .jumbotron {
+      margin-bottom: 0;
+      background-color: #D63E29;
+      color: #ffffff;
+      padding-top: 20px;
+      padding-bottom: 20px;
+    }
+
+    .jumbotron h1 {
+        font-family: 'Oswald', sans-serif;
+    }
+
+    .jumbotron p {
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 300;
+    }
+
+    /* Add a gray background color and some padding to the footer */
+    footer {
+      background-color: #f2f2f2;
+      padding: 25px;
+    }
+
+    .panel-heading {
+        font-family: 'Oswald', sans-serif;
+        font-weight: 700;
+        text-transform: uppercase;
+        word-spacing: 3px;
+    }
+
+    .panel-body {
+        padding: 0px;
+    }
+
+
+
+    .panel-heading a {
+        color: #333;
+    }
+
+    body {
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 300;
+        line-height: 1.5;
+        font-size: 15px;
+    }
+
+    ul {
+        margin-left: -20px;
+    }
+
+    .navbar-nav {
+        font-weight: 600;
+    }
+
+    table {
+        border-collapse: collapse;
+    }
+
+    table, th, td {
+        border: 1px solid black;
+        padding: 10px;
+    }

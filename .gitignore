@@ -1,0 +1,7 @@
+/.idea
+/.jekyll-metadata
+/build
+/_site
+
+.DS_Store
+

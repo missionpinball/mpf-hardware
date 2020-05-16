@@ -1,0 +1,18 @@
+---
+layout: default
+---
+<div class="container">
+<h1>{{ page.name }}</h1>
+
+    <table>
+        <tr><td>Purpose</td><td>{{ page.purpose }}</td></tr>
+        <tr><td>Creators</td><td>{{ page.creators }}</td></tr>
+        <tr><td>Date Added</td><td>{{ page.date_added }}</td></tr>
+        <tr><td>Tested</td><td>{% if page.tested %}Tested by {{ page.tested_by }}{% else %}Not tested{% endif %}</td></tr>
+    </table>
+
+<h2>Description</h2>
+
+{{ content }}
+
+</div>
