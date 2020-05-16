@@ -26,7 +26,7 @@
   ga('send', 'pageview');
 
     </script>
-    <link href="/css/mpf.css" rel="stylesheet" type="text/css">
+    <link href="{{ '/css/mpf.css' | prepend: site.baseurl }}" rel="stylesheet" type="text/css">
     <link href=
     "https://fonts.googleapis.com/css?family=Open+Sans:300,400,600|Oswald:300,400,700"
     rel="stylesheet">
@@ -48,13 +48,13 @@
     "apple-touch-icon-precomposed" sizes="152x152">
     <link href="/images/icons/favicon-196x196.png" rel="icon" sizes="196x196"
     type="image/png">
-    <link href="/images/icons/favicon-96x96.png" rel="icon" sizes="96x96" type=
+    <link href="{{ '/images/icons/favicon-96x96.png' | prepend: site.baseurl }}" rel="icon" sizes="96x96" type=
     "image/png">
-    <link href="/images/icons/favicon-32x32.png" rel="icon" sizes="32x32" type=
+    <link href="{{ '/images/icons/favicon-32x32.png' | prepend: site.baseurl }}" rel="icon" sizes="32x32" type=
     "image/png">
-    <link href="/images/icons/favicon-16x16.png" rel="icon" sizes="16x16" type=
+    <link href="{{ '/images/icons/favicon-16x16.png' | prepend: site.baseurl }}" rel="icon" sizes="16x16" type=
     "image/png">
-    <link href="/images/icons/favicon-128.png" rel="icon" sizes="128x128" type=
+    <link href="{{ '/images/icons/favicon-128.png' | prepend: site.baseurl }}" rel="icon" sizes="128x128" type=
     "image/png">
     <meta content="Mission Pinball Hardware" name="application-name">
     <meta content="#FFFFFF" name="msapplication-TileColor">
@@ -84,15 +84,15 @@
                 data-toggle="collapse" type="button"><span class=
                 "icon-bar"></span> <span class="icon-bar"></span> <span class=
                 "icon-bar"></span></button> <a class="navbar-brand" href=
-                "/"><img src="/images/mpf-flag-tiny.png"></a>
+                "/"><img src="{{ '/images/mpf-flag-tiny.png' | prepend: site.baseurl }}"></a>
             </div>
             <div class="collapse navbar-collapse" id="myNavbar">
                 <ul class="nav navbar-nav">
                     <li>
-                        <a href="/pcbs.html">PCBs</a>
+                        <a href="{{ '/pcbs.html' | prepend: site.baseurl }}">PCBs</a>
                     </li>
                     <li>
-                        <a href="/cad-models.html">3D Models</a>
+                        <a href="{{ '/cad-models.html' | prepend: site.baseurl }}">3D Models</a>
                     </li>
                     <li>
                         <a href="https://missionpinball.org">Software</a>
