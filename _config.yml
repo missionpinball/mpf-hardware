@@ -1,6 +1,6 @@
 # SITE CONFIGURATION
-baseurl: ""
-url: "https://missionpinball.github.io/"
+baseurl: "mpf-hardware/"
+url: "https://missionpinball.github.io"
 title: Mission Pinball Hardware
 description: "Mission Pinball Hardware"
 
