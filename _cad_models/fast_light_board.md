@@ -22,4 +22,3 @@ models:
       url: https://github.com/homebrew-pinball/fusion360-models/raw/master/lights/Fast%20Light%20Board.f3d
 tags: [Insert, FAST, Lights]
 ---
-Needs upper part 535-7329-01 to work.

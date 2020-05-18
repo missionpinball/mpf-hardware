@@ -10,4 +10,3 @@ models:
       url: https://github.com/homebrew-pinball/fusion360-models/raw/master/lights/NeoPixel%20Jewel%207%20LED.f3d
 tags: [Lights, Adafruit]
 ---
-Needs upper part 535-7329-01 to work.
