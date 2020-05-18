@@ -14,7 +14,7 @@ layout: default
 <h2>Models</h2>
     <table>
         {% for model in page.models %}
-        <tr><td><a href="{{ model.url }}">{{ model.format }}</a></td><td>{% if page.verified %}Verified by {{ page.verified_by }}{% else %}Not verified{% endif %}</td></tr>
+        <tr><td><a href="{{ model.url }}">{{ model.format }}</a></td><td>{{ model.description }}</td><td>{% if page.verified %}Verified by {{ page.verified_by }}{% else %}Not verified{% endif %}</td></tr>
         {% endfor %}
     </table>
 
