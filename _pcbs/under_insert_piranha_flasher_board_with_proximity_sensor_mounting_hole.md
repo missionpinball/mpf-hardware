@@ -2,7 +2,7 @@
 name: Under Insert Piranha Flasher Board with Proximity Sensor Mounting Hole
 purpose: Light up playfield insert around a proximity sensor
 creators: Michael Rumore, Coleman Martin
-date_added:
+date_added: 2020-05-16
 dimensions: 33 x 49.5mm (1.3"x1.95")
 tested: yes
 tested_by: Michael Rumore, Coleman Martin

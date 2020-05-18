@@ -5,10 +5,17 @@ layout: default
 <h1>{{ page.name }}</h1>
 
     <table>
-        <tr><td>Purpose</td><td>{{ page.purpose }}</td></tr>
+        <tr><td>Part Number</td><td>{{ page.part_number }}</td></tr>
         <tr><td>Creators</td><td>{{ page.creators }}</td></tr>
         <tr><td>Date Added</td><td>{{ page.date_added }}</td></tr>
-        <tr><td>Tested</td><td>{% if page.tested %}Tested by {{ page.tested_by }}{% else %}Not tested{% endif %}</td></tr>
+        <tr><td>Verified</td><td>{% if page.verified %}Verified by {{ page.verified_by }}{% else %}Not verified{% endif %}</td></tr>
+    </table>
+
+<h2>Models</h2>
+    <table>
+        {% for model in page.models %}
+        <tr><td><a href="{{ model.url }}">{{ model.format }}</a></td><td>{% if page.verified %}Verified by {{ page.verified_by }}{% else %}Not verified{% endif %}</td></tr>
+        {% endfor %}
     </table>
 
 <h2>Description</h2>

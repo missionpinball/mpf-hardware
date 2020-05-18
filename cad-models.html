@@ -3,12 +3,16 @@ layout: default
 title: CAD Models
 ---
 <div class="container">
-        <p>We maintain a list of useful CAD models for building pinball machines.</p>
+        <p>We maintain a list of useful CAD models for building pinball machines. Not all of them a verified.
+        If you verified one of them please let us know in the
+            <a href="https://groups.google.com/forum/#!forum/mpf-users">MPF User Forum</a> and we will mark it
+        accordingly.
+        If you got additional models you want to share also let us know there.</p>
 
         <h2>List of tested CAD Models</h2>
         <ul>
         {% for model in site.cad_models %}
-            <li><a href="{{ model.url | absolute_url }}">{{ model.name }}</a></li>
+            <li><a href="{{ model.url | absolute_url }}">{{ model.name }} </a> - {{ model.part_number }}</li>
         {% endfor %}
         </ul>
 
@@ -20,7 +24,7 @@ title: CAD Models
             <ul>
                 {% for model in site.cad_models %}
                     {% if model.tags contains tag %}
-                        <li><a href="{{ model.url | absolute_url }}">{{ model.name }}</a></li>
+                        <li><a href="{{ model.url | absolute_url }}">{{ model.name }}</a> - {{ model.part_number }}</li>
                     {% endif %}
                 {% endfor %}
           </ul>
