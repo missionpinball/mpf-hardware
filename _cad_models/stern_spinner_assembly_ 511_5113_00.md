@@ -8,5 +8,5 @@ verified_by:
 models:
     - format: Fusion360
       url: https://github.com/homebrew-pinball/fusion360-models/raw/master/assemblies/Stern%20Spinner%20Assembly%20511-5113-00.f3d
-tags: [Assembly, Spinner, Stern]
+tags: [Assembly, Switches, Spinners, Stern]
 ---
