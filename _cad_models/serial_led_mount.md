@@ -8,7 +8,7 @@ verified_by:
 models: 
     - format: Fusion360
       url: https://github.com/homebrew-pinball/fusion360-models/raw/master/lights/RGB%20General%20Illumination%20Light.f3d
-tags: [Light, Mount]
+tags: [Lights, Mount]
 ---
 
 Mounts a string of serial LEDs ("Christmas Lights").

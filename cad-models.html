@@ -18,7 +18,7 @@ title: CAD Models
 
 
         <h2>CAD Models by Tags</h2>
-        {% assign tags = site.cad_models | map: 'tags' | join: ','  | split: ',' | uniq %}
+        {% assign tags = site.cad_models | map: 'tags' | join: ','  | split: ',' | uniq | sort %}
         {% for tag in tags %}
             <h3>{{ tag }}</h3>
             <ul>
