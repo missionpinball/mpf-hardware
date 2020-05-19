@@ -9,7 +9,7 @@ title: CAD Models
         accordingly.
         If you got additional models you want to share also let us know there.</p>
 
-        <h2>List of tested CAD Models</h2>
+        <h2>List of CAD Models</h2>
         <ul>
         {% for model in site.cad_models %}
             <li><a href="{{ model.url | absolute_url }}">{{ model.name }} </a>{% if model.part_number %} - {{ model.part_number }}{% endif %}</li>
