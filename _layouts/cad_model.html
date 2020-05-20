@@ -6,15 +6,14 @@ layout: default
 
     <table>
         <tr><td>Part Number</td><td>{{ page.part_number }}</td></tr>
-        <tr><td>Creators</td><td>{{ page.creators }}</td></tr>
         <tr><td>Date Added</td><td>{{ page.date_added }}</td></tr>
-        <tr><td>Verified</td><td>{% if page.verified %}Verified by {{ page.verified_by }}{% else %}Not verified{% endif %}</td></tr>
     </table>
 
 <h2>Models</h2>
     <table>
+        <tr><th>Format</th><th>Description</th><th>Verified by</th><th>Creators</th></tr>
         {% for model in page.models %}
-        <tr><td><a href="{{ model.url }}">{{ model.format }}</a></td><td>{{ model.description }}</td><td>{% if page.verified %}Verified by {{ page.verified_by }}{% else %}Not verified{% endif %}</td></tr>
+        <tr><td><a href="{{ model.url }}">{{ model.format }}</a></td><td>{{ model.description }}</td><td>{% if model.verified %}Verified by {{ model.verified_by }}{% else %}Not verified{% endif %}</td><td>{{ model.creators }}</td></tr>
         {% endfor %}
     </table>
 
