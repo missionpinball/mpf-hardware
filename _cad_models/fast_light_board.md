@@ -22,5 +22,5 @@ models:
     - format: Fusion360
       url: https://github.com/homebrew-pinball/fusion360-models/raw/master/lights/Fast%20Light%20Board.f3d
       creators: Mark Seiden
-tags: [Insert, FAST, Lights]
+tags: [Inserts, FAST, Lights]
 ---

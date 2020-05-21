@@ -19,5 +19,9 @@ models:
       url: https://pinballmakers.com/wiki/images/1/14/Stand_Up_Target_Rectangle_1_1-16_in_-_B-12001-4_%28Bank_of_3%29.dwg
       description: B-12001-4 (red) - Bank of 3
       creators: Unknown
+    - format: Solidworks
+      url: https://pinballmakers.com/wiki/images/c/c8/Target_005_Assy.zip
+      description: Might be a different part number. Please let us know if you checked.
+      creators: Unknown
 tags: [Target, Switches]
 ---
