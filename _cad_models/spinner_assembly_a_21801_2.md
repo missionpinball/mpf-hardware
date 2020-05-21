@@ -1,6 +1,6 @@
 ---
 name: Spinner Assembly Bally
-part_number: A-21801-2 
+part_number: A-21801-2
 date_added: 2020-05-19
 models:
     - format: Autocad

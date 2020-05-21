@@ -9,5 +9,8 @@ models:
     - format: AutoCad
       url: https://pinballmakers.com/wiki/images/b/ba/Ball_Inlane_Guide_%28left%29_-_550-5037-01.dwg
       creators: Unknown
-tags: [Guide, Plastic]
+    - format: Solidworks
+      url: https://pinballmakers.com/wiki/images/1/1a/Inlane_DE-sega-stern.SLDPRT
+      creators: Unknown
+tags: [Guide, Plastic, Data East, Stern, Sega]
 ---

@@ -9,6 +9,10 @@ models:
     - format: Autocad
       url: https://pinballmakers.com/wiki/images/7/79/Flipper_Assy_-_Williams_A-15205_%28Left%29.dwg
       creators: Unknown
+    - format: Solidworks
+      url: https://pinballmakers.com/wiki/images/1/15/Flipper_Assembly_WPC.zip
+      description: Coil is incorrect
+      creators: Unknown
 tags: [Assembly, Flipper]
 ---
 
