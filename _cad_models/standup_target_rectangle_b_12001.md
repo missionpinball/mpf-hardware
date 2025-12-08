@@ -2,7 +2,7 @@
 name: Standup Target Rectangle
 part_number: B-12001-x or A-18060-x
 date_added: 2020-05-19
-models: 
+models:
     - format: Fusion360
       url: https://github.com/homebrew-pinball/fusion360-models/raw/master/targets/Standup%20Target%20Rectangle%20B-12001-1.f3d
       description: B-12001-1 (blue)

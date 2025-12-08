@@ -2,7 +2,7 @@
 name: Threaded Post Screw 6-32 Top and Bottom
 part_number: 530-5012-02 or 02-9899
 date_added: 2020-05-19
-models: 
+models:
     - format: Fusion360
       url: https://github.com/homebrew-pinball/fusion360-models/raw/master/hardware/Threaded%20Post%20Screw%20530-5012-02.f3d
       creators: Mark Seiden
@@ -16,4 +16,3 @@ models:
       creators: Unknown
 tags: [Post, Screw]
 ---
-

@@ -2,7 +2,7 @@
 name: Lower Third Modern Stern
 part_number:
 date_added: 2020-05-19
-models: 
+models:
     - format: Fusion360
       url: https://github.com/homebrew-pinball/fusion360-models/raw/master/playfields/Lower%20Third%20Modern%20Stern.f3d
       creators: Mark Seiden
