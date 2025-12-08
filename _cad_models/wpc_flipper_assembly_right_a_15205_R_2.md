@@ -2,7 +2,7 @@
 name: WPC Flipper Assembly Right
 part_number: A-15205-R-2
 date_added: 2020-05-19
-models: 
+models:
     - format: Fusion360
       url: https://github.com/homebrew-pinball/fusion360-models/raw/master/flippers/WPC%20Flipper%20Assembly%20Right%20A-15205-R-2.f3d
       creators: Mark Seiden
@@ -11,4 +11,3 @@ models:
       creators: Unknown
 tags: [Assembly, Flipper]
 ---
-

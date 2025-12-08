@@ -2,7 +2,7 @@
 name: Data East Sega Stern Right Inlane Guide
 part_number: 550-5043-01
 date_added: 2020-05-19
-models: 
+models:
     - format: Fusion360
       url: https://github.com/homebrew-pinball/fusion360-models/raw/master/rails%20and%20guides/DE%20Sega%20Stern%20Right%20Inlane%20Guide%20550-5043-01.f3d
       creators: Mark Seiden
